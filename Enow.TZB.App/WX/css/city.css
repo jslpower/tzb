@@ -1,0 +1,6 @@
+/******城市选择******/
+.city_list{ background:#fff; overflow:hidden;}
+.city_list .city_li{ background:#fff;line-height:32px;}
+.city_group_title{ background:#f4fffd; border-bottom:#e8e8e8 solid 1px; height:27px; line-height:27px; color:#404344;padding-left:20px; font-size:16px;}
+.city_group_box li{ border-bottom:#e9e9e9 solid 1px;padding-left:20px; font-size:14px;}
+.city_group_box li.city_on{ background:#29caa9; border-color:#29caa9; color:#fff;}

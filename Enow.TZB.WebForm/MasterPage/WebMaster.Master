@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="WebMaster.master.cs"
+    Inherits="Enow.TZB.WebForm.MasterPage.WebMaster" %>
+
+<%@ Register Src="/UserControl/TopBar.ascx" TagName="TopBar" TagPrefix="uc1" %>
+<%@ Register Src="/UserControl/Menu.ascx" TagName="Menu" TagPrefix="uc2" %>
+<%@ Register Src="/UserControl/Footer.ascx" TagName="Footer" TagPrefix="uc3" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="/Css/style.css" rel="Stylesheet" />
+    <link href="/Css/boxynew.css" rel="Stylesheet" />
+    <link href="/Css/jquery.slideBox.css" rel="Stylesheet" />
+    <script type="text/javascript" src="/Js/jquery-1.4.4.js"></script>
+    <script type="text/javascript" src="/Js/common.js"></script>
+    <script type="text/javascript" src="/Js/ValiDatorForm.js"></script>
+    <script type="text/javascript" src="/Js/jquery.blockUI.js"></script>
+    <script type="text/javascript" src="/Js/table-toolbar.js"></script>
+    <script type="text/javascript" src="/Js/jquery.slideBox.js"></script>
+    <script type="text/javascript" src="/Js/jquery.slideBox.min.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <uc1:TopBar ID="TopBar1" runat="server" />
+    <uc2:Menu ID="Menu1" runat="server" />
+    <div class="warp fixed">
+        <div class="leftside">
+            <asp:ContentPlaceHolder ID="Cph_Left" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="rightsied">
+            <asp:ContentPlaceHolder ID="Cph_Body" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <uc3:Footer ID="footer" runat="server" />
+    </form>
+</body>
+</html>

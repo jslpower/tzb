@@ -1,0 +1,121 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enow.TZB.Document", "Enow.TZB.Document\Enow.TZB.Document.csproj", "{50B934A4-1AC8-4F28-8D4C-7CF6F2805A26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enow.TZB.Model", "Enow.TZB.Model\Enow.TZB.Model.csproj", "{35DBA4DE-4CF7-436B-8F60-6F664F318402}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enow.TZB.Web", "Enow.TZB.Web\Enow.TZB.Web.csproj", "{F8520CB2-DADB-4E3F-B383-237AC99CAB3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICSharpCode.SharpZLib", "ICSharpCode.SharpZLib\ICSharpCode.SharpZLib.csproj", "{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enow.TZB.BLL", "Enow.TZB.BLL\Enow.TZB.BLL.csproj", "{3119CCBD-64C3-4F10-B954-04C9AB6F23B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enow.TZB.SMS", "Enow.TZB.SMS\Enow.TZB.SMS.csproj", "{4E3FB278-8FA0-404C-A702-0B55883AACC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enow.TZB.Utility", "Enow.TZB.Utility\Enow.TZB.Utility.csproj", "{67A8DB4B-7746-4DD6-A3D0-CD09A378E24F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enow.TZB.WebForm", "Enow.TZB.WebForm\Enow.TZB.WebForm.csproj", "{6CBF0696-D287-4428-9CFB-1BE4131866AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enow.TZB.App", "Enow.TZB.App\Enow.TZB.App.csproj", "{DA487566-DB4B-46C9-A84B-E7922BEB3C17}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 10
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Enow.TZB.Document\\Enow.TZB.Document.csproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = Enow.TZB.Document\\
+		SccProjectUniqueName2 = Enow.TZB.Model\\Enow.TZB.Model.csproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = Enow.TZB.Model\\
+		SccProjectUniqueName3 = Enow.TZB.Web\\Enow.TZB.Web.csproj
+		SccLocalPath3 = .
+		SccProjectFilePathRelativizedFromConnection3 = Enow.TZB.Web\\
+		SccProjectUniqueName4 = ICSharpCode.SharpZLib\\ICSharpCode.SharpZLib.csproj
+		SccLocalPath4 = .
+		SccProjectFilePathRelativizedFromConnection4 = ICSharpCode.SharpZLib\\
+		SccProjectUniqueName5 = Enow.TZB.BLL\\Enow.TZB.BLL.csproj
+		SccProjectName5 = \u0022$/铁子帮.root/铁子帮/Enow.TZB.BLL\u0022,\u0020ORAAAAAA
+		SccLocalPath5 = Enow.TZB.BLL
+		SccProjectUniqueName6 = Enow.TZB.SMS\\Enow.TZB.SMS.csproj
+		SccProjectName6 = \u0022$/铁子帮.root/铁子帮/Enow.TZB.SMS\u0022,\u0020OEBAAAAA
+		SccLocalPath6 = Enow.TZB.SMS
+		SccProjectUniqueName7 = Enow.TZB.Utility\\Enow.TZB.Utility.csproj
+		SccProjectName7 = \u0022$/铁子帮.root/铁子帮/Enow.TZB..Utility\u0022,\u0020OPAAAAAA
+		SccLocalPath7 = Enow.TZB.Utility
+		SccProjectUniqueName8 = Enow.TZB.WebForm\\Enow.TZB.WebForm.csproj
+		SccLocalPath8 = .
+		SccProjectFilePathRelativizedFromConnection8 = Enow.TZB.WebForm\\
+		SccProjectUniqueName9 = Enow.TZB.App\\Enow.TZB.App.csproj
+		SccLocalPath9 = .
+		SccProjectFilePathRelativizedFromConnection9 = Enow.TZB.App\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50B934A4-1AC8-4F28-8D4C-7CF6F2805A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B934A4-1AC8-4F28-8D4C-7CF6F2805A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50B934A4-1AC8-4F28-8D4C-7CF6F2805A26}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{50B934A4-1AC8-4F28-8D4C-7CF6F2805A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50B934A4-1AC8-4F28-8D4C-7CF6F2805A26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50B934A4-1AC8-4F28-8D4C-7CF6F2805A26}.Release|x64.ActiveCfg = Release|Any CPU
+		{35DBA4DE-4CF7-436B-8F60-6F664F318402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35DBA4DE-4CF7-436B-8F60-6F664F318402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35DBA4DE-4CF7-436B-8F60-6F664F318402}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{35DBA4DE-4CF7-436B-8F60-6F664F318402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35DBA4DE-4CF7-436B-8F60-6F664F318402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35DBA4DE-4CF7-436B-8F60-6F664F318402}.Release|x64.ActiveCfg = Release|Any CPU
+		{F8520CB2-DADB-4E3F-B383-237AC99CAB3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8520CB2-DADB-4E3F-B383-237AC99CAB3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8520CB2-DADB-4E3F-B383-237AC99CAB3D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F8520CB2-DADB-4E3F-B383-237AC99CAB3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8520CB2-DADB-4E3F-B383-237AC99CAB3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8520CB2-DADB-4E3F-B383-237AC99CAB3D}.Release|x64.ActiveCfg = Release|Any CPU
+		{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}.Debug|x64.ActiveCfg = Debug|x64
+		{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}.Debug|x64.Build.0 = Debug|x64
+		{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}.Release|x64.ActiveCfg = Release|x64
+		{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}.Release|x64.Build.0 = Release|x64
+		{3119CCBD-64C3-4F10-B954-04C9AB6F23B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3119CCBD-64C3-4F10-B954-04C9AB6F23B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3119CCBD-64C3-4F10-B954-04C9AB6F23B4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3119CCBD-64C3-4F10-B954-04C9AB6F23B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3119CCBD-64C3-4F10-B954-04C9AB6F23B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3119CCBD-64C3-4F10-B954-04C9AB6F23B4}.Release|x64.ActiveCfg = Release|Any CPU
+		{4E3FB278-8FA0-404C-A702-0B55883AACC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3FB278-8FA0-404C-A702-0B55883AACC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3FB278-8FA0-404C-A702-0B55883AACC4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4E3FB278-8FA0-404C-A702-0B55883AACC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3FB278-8FA0-404C-A702-0B55883AACC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E3FB278-8FA0-404C-A702-0B55883AACC4}.Release|x64.ActiveCfg = Release|Any CPU
+		{67A8DB4B-7746-4DD6-A3D0-CD09A378E24F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67A8DB4B-7746-4DD6-A3D0-CD09A378E24F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67A8DB4B-7746-4DD6-A3D0-CD09A378E24F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{67A8DB4B-7746-4DD6-A3D0-CD09A378E24F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67A8DB4B-7746-4DD6-A3D0-CD09A378E24F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67A8DB4B-7746-4DD6-A3D0-CD09A378E24F}.Release|x64.ActiveCfg = Release|Any CPU
+		{6CBF0696-D287-4428-9CFB-1BE4131866AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CBF0696-D287-4428-9CFB-1BE4131866AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CBF0696-D287-4428-9CFB-1BE4131866AD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6CBF0696-D287-4428-9CFB-1BE4131866AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CBF0696-D287-4428-9CFB-1BE4131866AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CBF0696-D287-4428-9CFB-1BE4131866AD}.Release|x64.ActiveCfg = Release|Any CPU
+		{DA487566-DB4B-46C9-A84B-E7922BEB3C17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA487566-DB4B-46C9-A84B-E7922BEB3C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA487566-DB4B-46C9-A84B-E7922BEB3C17}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DA487566-DB4B-46C9-A84B-E7922BEB3C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA487566-DB4B-46C9-A84B-E7922BEB3C17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA487566-DB4B-46C9-A84B-E7922BEB3C17}.Release|x64.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

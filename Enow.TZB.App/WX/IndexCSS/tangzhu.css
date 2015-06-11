@@ -1,0 +1,22 @@
+.tangzhu_jianli{ background:#f9f9f9; border-style:solid; border-width:0 1px 1px 1px; border-color:#E8E8E8; overflow:hidden;}
+.tangzhu_jieshao{ text-indent:2em;overflow:hidden;}
+
+.tangzhu_xinxi{ line-height:22px; padding-bottom:20px; border-bottom:#e8e8e8 solid 1px;}
+
+.tangzhu_log{ padding-bottom:10px; overflow:hidden;}
+.tangzhu_log li{padding:10px;background:#f9f9f9; border:#e8e8e8 solid 1px; margin-top:10px; overflow:hidden;}
+.tangzhu_log .log_title{ height:21px; line-height:21px; overflow:hidden;}
+
+/*******我的球队******/
+.qiudui_title{ font-size:16px; position:relative; font-weight:400; text-align:center;}
+.qiudui_title em{ background:url(../images/update.png) no-repeat;width:19px; height:19px; position:absolute; right:0; top:2px;}
+
+.qiudui_log li{ padding-right:80px; position:relative;}
+.qiudui_log .Rbtn{ position:absolute; right:10px; top:5px; width:65px;}
+.qiudui_log .Rbtn a{ font-size:14px; display:block;width:65px; height:24px;line-height:22px;}
+.qiudui_log .Rbtn a:nth-child(1){ margin-bottom:4px;}
+
+.qiudui_log_ly{width:100%; overflow:hidden;}
+.qiudui_log_ly li{ border-top:#e8e8e8 solid 1px; padding:10px 0; overflow:hidden;}
+.qiudui_log_ly li .user_tx img{ float:left;width:35px; height:35px; padding-right:10px;}
+.qiudui_log_ly li .txt{font-size:14px; padding-top:5px;}

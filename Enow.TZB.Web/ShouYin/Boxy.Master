@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Boxy.master.cs" Inherits="Enow.TZB.Web.ShouYin.Boxy" %>
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>BOXY</title>
+    <script type="text/javascript" src="/js/jquery-1.4.4.js"></script>
+    <script type="text/javascript" src="/js/jquery.boxy.js"></script>
+    <script type="text/javascript" src="/js/shouyin.core.js"></script>
+    <script type="text/javascript" src="/js/table-toolbar.js"></script>
+    <script type="text/javascript" src="/js/datepicker/WdatePicker.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/js/json2.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="/shouyin/css/style.css" type="text/css" media="screen" />
+    <link href="/shouyin/css/boxy.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="CPH_TouBu" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background: #fff;">
+    <asp:ContentPlaceHolder ID="CPH_ZhuTi" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if (typeof JSON == 'undefined') $.getScript("/js/json2.js", function () { });
+        })
+    </script>
+</body>
+</html>

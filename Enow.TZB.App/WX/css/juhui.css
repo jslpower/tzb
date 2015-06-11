@@ -1,0 +1,21 @@
+
+.juhui_list{width:100%; overflow:hidden;}
+.juhui_list li{ border:#e8e8e8 solid 1px; background:#f9f9f9; overflow:hidden; margin-bottom:10px;}
+.juhui-title{padding:5px 10px; height:22px; line-height:22px; border-bottom:#e8e8e8 solid 1px; overflow:hidden; white-space:nowrap;text-overflow:ellipsis;}
+.juhui-title em{ color:#1d8a74; padding-right:3px;}
+.juhui-box{ padding:10px 90px 10px 10px; overflow:hidden;position:relative;}
+.juhui-box p{line-height:21px;}
+.juhui-box .btn{ position:absolute; right:10px; top:13px; width:70px;}
+.juhui-box .btn a{ font-size:14px; display:block;width:70px; height:26px;line-height:24px;}
+.juhui-box .btn a:nth-child(1){ margin-bottom:5px;}
+
+
+.u_yuezhan .juhui-title{ position:relative; padding-left:97px;}
+.u_yuezhan .juhui-title em{padding-left:3px;}
+.u_yuezhan .juhui-title .green,.u_yuezhan .juhui-title .red{ position:absolute;width:80px; padding-right:17px; height:32px; line-height:32px; left:0; top:0px; text-align:center; color:#fff; font-size:14px; display:inline-block;}
+.u_yuezhan .juhui-title .green{ background:#1d8a74 url(../images/green_bg.gif) top right no-repeat;}
+.u_yuezhan .juhui-title .red{ background:#ea3045 url(../images/red_bg.gif) top right no-repeat;}
+.u_yuezhan .juhui-box .btn01{top:28px;}
+
+
+.u_yuezhan_list li .item-box{ padding-right:0;}

@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ShouYin.master.cs" Inherits="Enow.TZB.Web.ShouYin.ShouYin" %>
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title><%=ITitle %></title>
+    <script type="text/javascript" src="/js/jquery-1.4.4.js"></script>
+    <script type="text/javascript" src="/js/jquery.boxy.js"></script>
+    <script type="text/javascript" src="/js/shouyin.core.js"></script>
+    <script type="text/javascript" src="/js/table-toolbar.js"></script>
+    <script type="text/javascript" src="/js/datepicker/WdatePicker.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/js/json2.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="/shouyin/css/style.css" type="text/css" media="screen"/>
+    <link href="/shouyin/css/boxy.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="CPH_TouBu" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="top">
+        <div class="topbox clearfix">
+            <div class="logo floatL">
+                <%=QiuChangName%>-收银端&nbsp;&nbsp;V1.0Beta</div>
+            <div class="topR floatR">
+                <ul>
+                    <li><%=DateTime.Now.ToString("yyyy年MM月dd日") %> <span id="span_clock"><%=DateTime.Now.ToString(" HH:mm:ss")%></span></li>
+                    <li>登录账号：<em><a href="MemberUpdate.aspx"><%=YongHuXingMing %></a></em><a href="javascript:void(0);" id="logout">【退出】</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <asp:ContentPlaceHolder ID="CPH_ZhuTi" runat="server">
+
+    </asp:ContentPlaceHolder>
+
+    <script type="text/javascript">
+        function clock() { var _t = new Date(); var _w = _t.getDay(); var _h = _t.getHours(); var _m = _t.getMinutes(); var _s = _t.getSeconds(); var _h1 = _h; var _m1 = _m; var _s1 = _s; if (_h < 10) { _h1 = "0" + _h }; if (_m < 10) { _m1 = "0" + _m }; if (_s < 10) { _s1 = "0" + _s }; $("#span_clock").html(_h1 + ":" + _m1 + ":" + _s1); }
+
+        $(document).ready(function () {
+            setInterval(clock, 1000);
+            $("#logout").click(function () { shouYin.logout(); });
+            if (typeof JSON == 'undefined') $.getScript("/js/json2.js", function () { });
+        });
+    </script>
+</body>
+</html>

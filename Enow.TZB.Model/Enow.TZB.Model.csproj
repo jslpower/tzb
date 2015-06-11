@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{35DBA4DE-4CF7-436B-8F60-6F664F318402}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Enow.TZB.Model</RootNamespace>
+    <AssemblyName>Enow.TZB.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EnumType\ActivityEnum.cs" />
+    <Compile Include="EnumType\ArticleEnum.cs" />
+    <Compile Include="EnumType\BallPositionEnum.cs" />
+    <Compile Include="EnumType\CodeEnum.cs" />
+    <Compile Include="EnumType\CourtEnum.cs" />
+    <Compile Include="EnumType\EventTypeEnumcs.cs" />
+    <Compile Include="EnumType\GathersEnum.cs" />
+    <Compile Include="EnumType\GoodsEnum.cs" />
+    <Compile Include="EnumType\JobEnum.cs" />
+    <Compile Include="EnumType\GoodsClassEnum.cs" />
+    <Compile Include="EnumType\MatchTeamEnum.cs" />
+    <Compile Include="EnumType\MemberEnum.cs" />
+    <Compile Include="EnumType\MemberWalletEnum.cs" />
+    <Compile Include="EnumType\MessageEnum.cs" />
+    <Compile Include="EnumType\OrderStatus.cs" />
+    <Compile Include="EnumType\RoleEnum.cs" />
+    <Compile Include="EnumType\SysMsgTypeEnum.cs" />
+    <Compile Include="EnumType\VoteEnum.cs" />
+    <Compile Include="MActivity.cs" />
+    <Compile Include="MallorderQuery.cs" />
+    <Compile Include="MApplicants.cs" />
+    <Compile Include="MArticleSearch.cs" />
+    <Compile Include="MBallFieldLatitude.cs" />
+    <Compile Include="MBallFieldSearch.cs" />
+    <Compile Include="MBallTeam.cs" />
+    <Compile Include="MCashierSummary.cs" />
+    <Compile Include="McodesQuery.cs" />
+    <Compile Include="MCommon.cs" />
+    <Compile Include="MFiledOrderSettle.cs" />
+    <Compile Include="MFileInfo.cs" />
+    <Compile Include="MGathersSearch.cs" />
+    <Compile Include="MGoodsClassSearch.cs" />
+    <Compile Include="MGoodsSearch.cs" />
+    <Compile Include="MjobSearch.cs" />
+    <Compile Include="MMallGoodsSearch.cs" />
+    <Compile Include="MManagerSearch.cs" />
+    <Compile Include="MMatch.cs" />
+    <Compile Include="MMatchGameSearch.cs" />
+    <Compile Include="MMatchScheduleSearch.cs" />
+    <Compile Include="MMatchTeamSearch.cs" />
+    <Compile Include="MMember.cs" />
+    <Compile Include="MMemberArticleSearch.cs" />
+    <Compile Include="MMesageSearch.cs" />
+    <Compile Include="MOrderInfo.cs" />
+    <Compile Include="MOrderSearch.cs" />
+    <Compile Include="MProvinceSearch.cs" />
+    <Compile Include="MRefundResponseInfo.cs" />
+    <Compile Include="MVoteQuery.cs" />
+    <Compile Include="MWalletSearch.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MArticleLeaveSearch.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

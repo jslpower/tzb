@@ -1,0 +1,10 @@
+.boxy-wrapper { position: absolute; background:#fff;border:#d6d6d6 solid 1px;}
+.boxy-wrapper.fixed { position: fixed; }
+.boxy-modal-blackout { position: absolute;background-color: black;  left: 0; top: 0;}
+.boxy-wrapper { empty-cells: show;}
+.boxy-wrapper .title-bar { background:#f4f4f4; height:50px;padding:0 16px; position: relative; }
+.boxy-wrapper .title-bar.dragging { cursor: move; }
+.boxy-wrapper .title-bar h2 {background:#f4f4f4;font-size:20px; color:#282828; line-height:50px; font-weight:600; float:left; display:inline;}
+.boxy-wrapper .title-bar .close { color: white; position: absolute; display:block; width:20px; height:20px; float:right; top: 15px; right: 16px;text-indent:-9999px; background:url(../images/closebox.gif)}
+.boxy-inner { overflow: hidden; background-color: white; padding: 0 }
+.boxy-content { padding: 15px; }

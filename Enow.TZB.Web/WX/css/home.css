@@ -1,0 +1,40 @@
+
+.menu{ border-top:#e3e3e3 solid 1px; background:#fff; overflow:hidden;}
+.menu li,.menu_bot li{width:25%; height:95px; padding-top:64px; float:left;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;border-bottom:#e3e3e3 solid 1px;border-right:#e3e3e3 solid 1px; position:relative; cursor:pointer;}
+.menu li:nth-child(4),.menu li:nth-child(7),.menu li:nth-child(11),.menu_bot li:nth-child(4){border-right:none 0;}
+.menu li h2{ font-size:14px; color:#4e4e4e; text-align:center;}
+.menu li.mid{width:50%;}
+.menu li.mid h2{ color:#ff8400;}
+
+.menu li s{width:40px; height:34px; background:url(../images/menu.png) no-repeat; display:inline-block; position:absolute; left:50%; top:15px; margin-left:-20px;}
+.menu li s.m-icon01{ background-position:0 -3px;}
+.menu li s.m-icon02{ background-position:-123px -3px;}
+.menu li s.m-icon03{ background-position:-246px -3px;}
+.menu li s.m-icon04{ background-position:-363px -3px;}
+.menu li s.m-icon05{ background-position:0 -138px;}
+.menu li s.m-icon06{ background-position:-174px -134px; width:60px; height:41px; margin-left:-30px; top:10px;}
+.menu li s.m-icon07{ background-position:-363px -138px;}
+.menu li s.m-icon08{ background-position:0 -269px;}
+.menu li s.m-icon09{ background-position:-123px -269px;}
+.menu li s.m-icon10{ background-position:-246px -269px;}
+.menu li s.m-icon11{ background-position:-363px -269px;}
+
+.menu li s.m-icon12{ background-position:0 -391px;}
+.menu li s.m-icon13{ background-position:-123px -391px;}
+.menu li s.m-icon14{ background-position:-246px -391px;}
+.menu li s.m-icon15{ background-position:-363px -391px;}
+.menu li s.m-icon16{ background-position:0 -495px;}
+.menu li s.m-icon17{ background-position:-123px -495px;}
+
+.ad img{width:100%;}
+
+.home_bot{width:100%; height:74px;}
+.menu_bot{ border-top:#e3e3e3 solid 1px; background:#fff;width:100%;height:63px;position:fixed; bottom:0; left:0; z-index:9999;}
+.menu_bot li{ height:63px; padding-top:37px;}
+.menu_bot li s{width:20px; height:17px; background:url(../images/menu.png) no-repeat; display:inline-block; position:absolute; left:50%; top:10px; margin-left:-10px;}
+.menu_bot li s.mb-icon01{ background-position:-9px -590px;}
+.menu_bot li s.mb-icon02{ background-position:-123px -590px;}
+.menu_bot li s.mb-icon03{ background-position:-250px -590px;}
+.menu_bot li s.mb-icon04{ background-position:-368px -590px;}
+
+.menu_bot li p{ color:#4e4e4e; font-size:13px; text-align:center;}

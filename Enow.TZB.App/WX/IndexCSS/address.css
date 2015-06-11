@@ -1,0 +1,23 @@
+.address_box{ overflow:hidden;}
+.address_box li{ border-top:#e8e8e8 solid 1px;border-bottom:#e8e8e8 solid 1px; padding:10px 0; background:#f9f9f9; margin-bottom:10px;font-size:14px;}
+.address_box li p{ padding:3px 10px;}
+.address_box li p.txt{ color:#9b9b9b;}
+.address_box li:last-of-type{margin-bottom:0;}
+
+.fxk,.fxk_on{ background:url(../images/input_ico.png) no-repeat left top;padding-left:22px;height:20px;}
+.fxk{ background-position:0 0;}
+.fxk_on{ background-position:0 -40px;}
+
+.address_box .basic_ybtn,.address_box .basic_gbtn{width:70px; height:26px; line-height:24px;font-size:14px; margin-left:8px;}
+.address_box p:last-of-type{ border-top:#9b9b9b dotted 1px; line-height:26px; margin-top:5px;padding-top:10px;}
+
+.address_add{width:100%; height:38px; line-height:38px; text-align:center; color:#fe6600; font-size:16px;border-top:#e8e8e8 solid 1px;border-bottom:#e8e8e8 solid 1px;background:#f9f9f9;}
+.address_add img{ padding-right:5px;}
+
+.select{outline:none; height:36px;border:1px solid #e1e1e1;position:relative;}
+select{height:36px;-webkit-appearance:none;appearance:none;border:none;font-size:14px;padding:0px 10 0 5px;display:block;width:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;background-color:#fff;color:#333333;}
+
+.address_form .u-input{ font-size:14px;}
+@media screen and (max-width:480px){
+.address_form .u-input,select{ font-size:12px;}
+	}

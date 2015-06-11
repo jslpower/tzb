@@ -1,0 +1,41 @@
+﻿public FWDC() :
+        base(global::System.Configuration.ConfigurationManager.ConnectionStrings["TZBConnectionString"].ConnectionString, mappingSource)
+		{
+			OnCreated();
+		}
+
+
+
+		 121.41.35.92
+阿里云服务器账号：tc@tie-zi.com
+戴振华 13:09:28 
+密码：qaz123qaz
+
+121.41.35.92
+
+12345678aA
+
+
+戴振华 13:11:41 
+短信地址：http://www.yuntongxun.com/  http://2office.cn/
+用户名：8332251@qq.com
+密码：qqaazz123
+
+戴振华 13:12:56 
+百度地图API：http://developer.baidu.com/map/index.php?title=%E9%A6%96%E9%A1%B5
+账号：tc@tie-zi.com
+密码：qqaazz123
+
+
+微信服务号后台：3057665064@qq.com
+密码：dujiang2014
+
+
+支付宝
+
+tiezibang@tie-zi.com
+
+戴振华 2014/11/14 15:49:05
+tzb2014!@#
+
+qazQAZ123

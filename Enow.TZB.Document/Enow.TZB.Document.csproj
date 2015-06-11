@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{50B934A4-1AC8-4F28-8D4C-7CF6F2805A26}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Enow.TZB.Document</RootNamespace>
+    <AssemblyName>Enow.TZB.Document</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="2015-5-9\微信平台菜单V3.0（正式版）.xlsx" />
+    <None Include="2015-5-9\约战状态位V1.01.xlsx" />
+    <None Include="2015-5-9\约战逻辑.vsdx" />
+    <None Include="文档\会员体系纲要 %281%29 %281%29.docx" />
+    <None Include="文档\会员体系纲要-讨论稿.docx" />
+    <None Include="文档\安卓APP及官网微信平台新增建设内容二期.docx" />
+    <None Include="文档\易诺科技介绍.ppt" />
+    <None Include="文档\铁子帮-最终\Thumbs.db" />
+    <None Include="文档\铁子帮.mmap" />
+    <None Include="文档\铁子帮分值管理细则（讨论稿）1222.docx" />
+    <None Include="文档\铁子帮官网.zip" />
+    <None Include="文档\铁子帮工作流程1.02.vsdx" />
+    <None Include="文档\铁子帮线上系统一期建设方案V1.0.docx" />
+    <None Include="文档\黑色USB读写器开发包.rar" />
+    <None Include="设计\帖子帮2期-定\1期旧-改\铁丝网-列表.psd" />
+    <None Include="设计\帖子帮2期-定\1期旧-改\铁丝网-详情-预约.psd" />
+    <None Include="设计\帖子帮2期-定\1期旧-改\铁丝网-详情.psd" />
+    <None Include="设计\帖子帮2期-定\1期旧-改\铁子帮-触屏-改.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心-商城-分类.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心-商城-分类2.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心-商城-购物车.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心-商城.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心-商城2.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心-商城3.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心-我的球队1-介绍.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心-我的球队2-队员.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心-我的球队3-日志.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心-我的球队4-日志详情.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心-我的约战-查看.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心-我的约战-查看2.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心-我的约战.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心-球队1-改.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心-球队1-查看.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心-球队1-约战.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心-球队1-约战2.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心-球队1-约战3.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心-球队1-约战4.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心-聚会-详情.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心-聚会.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心-舵主（堂主）风采-日志.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心-舵主（堂主）风采-简历.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心-舵主（堂主）风采.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心1-改2-更多.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心1-改2-更多2.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信会员中心1-改2.psd" />
+    <None Include="设计\帖子帮2期-定\铁子帮微信首页1-改2.psd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DLL\Adpost.Common.License.dll" />
+    <Content Include="DLL\AntiXSSLibrary.dll" />
+    <Content Include="DLL\ControlLibrary.dll" />
+    <Content Include="DLL\Newtonsoft.Json.dll" />
+    <Content Include="DLL\NPOI.dll" />
+    <Content Include="DLL\NPOI.OOXML.dll" />
+    <Content Include="DLL\NPOI.OOXML.XML" />
+    <Content Include="DLL\NPOI.OpenXml4Net.dll" />
+    <Content Include="DLL\NPOI.OpenXml4Net.XML" />
+    <Content Include="DLL\NPOI.OpenXmlFormats.dll" />
+    <Content Include="DLL\NPOI.XML" />
+    <Content Include="DLL\PayAPI.dll" />
+    <Content Include="DLL\WeixinMpSdk.dll" />
+    <Content Include="DLL\WxPayAPI.dll" />
+    <Content Include="DLL\zxing.dll" />
+    <Content Include="TextFile1.txt" />
+    <Content Include="文档\部门案例.txt" />
+    <Content Include="文档\铁子帮-最终\充值.jpg" />
+    <Content Include="文档\铁子帮-最终\铁丝网-列表.jpg" />
+    <Content Include="文档\铁子帮-最终\铁丝网-详情.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮-最终\充值.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮-最终\铁丝网-列表.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮-最终\铁丝网-详情.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮-最终\铁子帮微信会员中心-信息1.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮-最终\铁子帮微信会员中心-信息2.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮-最终\铁子帮微信会员中心-信息3.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮-最终\铁子帮微信会员中心-球队1.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮-最终\铁子帮微信会员中心-球队2.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮-最终\铁子帮微信会员中心-球队3.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮-最终\铁子帮微信会员中心-球队4.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮-最终\铁子帮微信会员中心-球队4（弹窗2）.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮-最终\铁子帮微信会员中心-球队4（弹窗）.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮-最终\铁子帮微信会员中心-赛事1.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮-最终\铁子帮微信会员中心-赛事报名1.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮-最终\铁子帮微信会员中心-赛事规程1.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮-最终\铁子帮微信会员中心-赛事详情1.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮-最终\铁子帮微信会员中心1-付款.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮-最终\铁子帮微信会员中心1.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮-最终\铁子帮微信岗位招聘1.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮-最终\铁子帮微信岗位招聘2.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮-最终\铁子帮微信岗位招聘3.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮-最终\铁子帮微信首页1.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮-最终\铁子帮注册1.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮-最终\铁子帮注册2.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮-最终\铁子帮注册3.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮微信会员中心-信息1.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮微信会员中心-信息2.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮微信会员中心-信息3.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮微信会员中心-球队1.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮微信会员中心-球队2.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮微信会员中心-球队3.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮微信会员中心-球队4.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮微信会员中心-球队4（弹窗2）.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮微信会员中心-球队4（弹窗）.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮微信会员中心-赛事1.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮微信会员中心-赛事报名1.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮微信会员中心-赛事规程1.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮微信会员中心-赛事详情1.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮微信会员中心1-付款.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮微信会员中心1.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮微信岗位招聘1.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮微信岗位招聘2.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮微信岗位招聘3.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮微信首页1.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮注册1.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮注册2.jpg" />
+    <Content Include="文档\铁子帮-最终\铁子帮注册3.jpg" />
+    <Content Include="日志.sql" />
+    <Content Include="设计\帖子帮2期-定\1期旧-改\铁丝网-列表.jpg" />
+    <Content Include="设计\帖子帮2期-定\1期旧-改\铁丝网-详情.jpg" />
+    <Content Include="设计\帖子帮2期-定\1期旧-改\铁子帮-触屏-改.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心-商城-分类.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心-商城-分类2.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心-商城-购物车.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心-商城.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心-商城2.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心-商城3.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心-我的球队1-介绍.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心-我的球队2-队员.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心-我的球队3-日志.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心-我的球队4-日志详情.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心-我的约战-查看.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心-我的约战-查看2.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心-我的约战.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心-球队1-改.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心-球队1-查看.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心-球队1-约战.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心-球队1-约战2.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心-球队1-约战3.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心-球队1-约战4.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心-聚会-详情%28已报名%29.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心-聚会-详情.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心-聚会.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心-舵主（堂主）风采-日志.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心-舵主（堂主）风采-简历.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心-舵主（堂主）风采.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心1-改2-更多.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心1-改2-更多2.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信会员中心1-改2.jpg" />
+    <Content Include="设计\帖子帮2期-定\铁子帮微信首页1-改2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PD\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

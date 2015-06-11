@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WeiXinProcess.aspx.cs" Inherits="Enow.TZB.Web.WX.WeiXinProcess" %>
